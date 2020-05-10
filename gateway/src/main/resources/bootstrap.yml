@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.101.15:8848
+      discovery:
+        server-addr: 192.168.101.15:8848
+  application:
+    name: gateway

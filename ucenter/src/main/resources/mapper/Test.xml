@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mksun.ucenter.dao.TestDao">
+    <select id="queryTestList" resultType="com.mksun.commons.entity.Test">
+        select id, create_id as createId , create_time as createTime,name from test;
+    </select>
+    <select id="queryTestById" resultType="com.mksun.commons.entity.Test">
+        select id, create_id as createId , create_time as createTime,name from test where id = #{id};
+    </select>
+    <insert id="saveTest" parameterType="com.mksun.commons.entity.Test">
+        insert into test (id, create_id  , create_time ,name ) values( #{id},#{createId},#{createTime},#{name});
+    </insert>
+</mapper>
