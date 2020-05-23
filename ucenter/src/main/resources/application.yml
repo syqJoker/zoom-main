@@ -1,6 +1,7 @@
 server:
   port: 8081
 
+
 spring:
   application:
     name: ucenter
@@ -26,3 +27,8 @@ spring:
 
 mybatis:
     mapper-locations: classpath:mapper/*.xml
+
+info:
+  app:
+    name: ucenter-service
+    version: v1.0.0
