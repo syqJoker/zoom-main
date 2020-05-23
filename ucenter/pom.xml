@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.mksun</groupId>
 	<artifactId>ucenter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>ucenter</name>
 	<description>个人微服务-用户中心</description>
 	<dependencies>

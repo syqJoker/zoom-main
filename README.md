@@ -8,6 +8,8 @@
 * Spring Cloud
   - Gateway
   - Nacos
+  - Feign
+  
 * Mybatis
 * Redis
 

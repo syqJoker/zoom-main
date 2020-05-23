@@ -8,6 +8,7 @@
 		<module>ucenter</module>
 		<module>gateway</module>
 		<module>commons</module>
+		<module>travel</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -68,6 +69,10 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 		</dependency>
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.kafka</groupId>-->

@@ -18,5 +18,8 @@ spring:
           uri: lb://workout
           predicates:
             - Path=/workout/**
+feign:
+  hystrix:
+    enabled: true
 
 
