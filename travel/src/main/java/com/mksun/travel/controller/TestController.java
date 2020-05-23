@@ -1,8 +1,8 @@
-package com.mksun.ucenter.controller;
+package com.mksun.travel.controller;
 
 import com.mksun.commons.entity.RtnJSON;
 import com.mksun.commons.entity.Test;
-import com.mksun.ucenter.service.TestService;
+import com.mksun.travel.service.TestService;
 import com.mksun.commons.utils.RedisUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/travel/test")
 public class TestController {
 
     @Resource

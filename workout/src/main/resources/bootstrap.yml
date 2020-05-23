@@ -1,9 +1,7 @@
 spring:
-  application:
-    name: workout
   cloud:
-    nacos:
-      config:
-        server-addr: 192.168.101.15:8848
-      discovery:
-        server-addr: 192.168.101.15:8848
+    config:
+      name: config
+      profile: dev
+      uri: http://127.0.0.1:8084/
+

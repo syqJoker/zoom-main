@@ -1,6 +1,6 @@
-package com.mksun.ucenter.commonService.impl;
+package com.mksun.travel.commonService.impl;
 
-import com.mksun.ucenter.commonService.RedisService;
+import com.mksun.travel.commonService.RedisService;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;

@@ -1,0 +1,12 @@
+#配置文件
+server:
+  port: 8084
+spring:
+  application:
+    name: config
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.101.15:8848
+      discovery:
+        server-addr: 192.168.101.15:8848

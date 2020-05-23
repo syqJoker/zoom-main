@@ -6,9 +6,11 @@
 
 * Spring Boot
 * Spring Cloud
-  - Gateway
-  - Nacos
-  - Feign
+  - Config配置
+  - Gateway网关
+  - Nacos服务注册发现
+  - Feign负载均衡
+  - Hystrix容错保护
   
 * Mybatis
 * Redis

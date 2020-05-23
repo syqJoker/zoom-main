@@ -1,4 +1,4 @@
-package com.mksun.ucenter.commonService;
+package com.mksun.travel.commonService;
 
 public interface RedisService {
 
