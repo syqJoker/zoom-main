@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/travel/test")
 public class TestController {
 
     @Resource
