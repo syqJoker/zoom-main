@@ -1,4 +1,4 @@
-package com.mksun.travel.service;
+package com.mksun.ucenter.service;
 
 import com.mksun.commons.entity.Test;
 

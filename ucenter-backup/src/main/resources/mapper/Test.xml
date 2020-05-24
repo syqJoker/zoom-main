@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mksun.ucenter.dao.TestDao">
+<mapper namespace="com.mksun.ucenterB.dao.TestDao">
     <select id="queryTestList" resultType="com.mksun.commons.entity.Test">
         select id, create_id as createId , create_time as createTime,name from test;
     </select>

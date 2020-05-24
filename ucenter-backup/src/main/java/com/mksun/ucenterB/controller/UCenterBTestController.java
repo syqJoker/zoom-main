@@ -1,8 +1,8 @@
-package com.mksun.travel.controller;
+package com.mksun.ucenterB.controller;
 
 import com.mksun.commons.entity.RtnJSON;
 import com.mksun.commons.entity.Test;
-import com.mksun.travel.service.TestService;
+import com.mksun.ucenterB.service.UCenterBTestService;
 import com.mksun.commons.utils.RedisUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,10 +13,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/test")
-public class TestController {
+public class UCenterBTestController {
 
     @Resource
-    private TestService testService;
+    private UCenterBTestService UCenterBTestService;
     @Resource
     private RedisUtils redisUtils;
 
@@ -29,14 +29,14 @@ public class TestController {
     @GetMapping("/queryTests")
     public RtnJSON queryTests(@RequestParam(value = "id", defaultValue = "") String id) {
         RtnJSON result = new RtnJSON();
-        result.setInfo(testService.queryTestList());
+        result.setInfo(UCenterBTestService.queryTestList());
         return result;
     }
 
     @GetMapping("/queryTestById")
     public RtnJSON queryTestById(@RequestParam(value = "id", defaultValue = "") String id) {
         RtnJSON result = new RtnJSON();
-        Test target = testService.queryTestById(id);
+        Test target = UCenterBTestService.queryTestById(id);
         if(target != null && target.getId() != null && !"".equalsIgnoreCase(target.getId())){
             Map<String,Object> resultInfo = new HashMap<>();
             String redisResult = redisUtils.get(target.getId());
@@ -65,7 +65,7 @@ public class TestController {
         if(test.getCreateTime() == null){
             test.setCreateTime(new Date());
         }
-        int saveResult = testService.registerTest(test);
+        int saveResult = UCenterBTestService.registerTest(test);
         if(saveResult>0){
             redisUtils.set(test.getId(),test.toString());
         }

@@ -5,3 +5,15 @@ spring:
       profile: dev
       uri: http://127.0.0.1:8084/
 
+ribbon:
+  eureka:
+    enabled: false
+
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+  hystrix:
+    enabled: true

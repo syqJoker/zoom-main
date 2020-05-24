@@ -1,4 +1,4 @@
-package com.mksun.travel.dao;
+package com.mksun.ucenterB.dao;
 
 import com.mksun.commons.entity.Test;
 import org.apache.ibatis.annotations.Mapper;

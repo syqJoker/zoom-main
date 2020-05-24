@@ -9,7 +9,8 @@
   - Config配置
   - Gateway网关
   - Nacos服务注册发现
-  - Feign负载均衡
+  - Ribbon负载均衡
+  - Feign声明服务调用
   - Hystrix容错保护
   
 * Mybatis

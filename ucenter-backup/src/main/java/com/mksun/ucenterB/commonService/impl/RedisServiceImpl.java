@@ -1,6 +1,6 @@
-package com.mksun.travel.commonService.impl;
+package com.mksun.ucenterB.commonService.impl;
 
-import com.mksun.travel.commonService.RedisService;
+import com.mksun.ucenterB.commonService.RedisService;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
-@Service("redisService")
+@Service("redisService2")
 public class RedisServiceImpl implements RedisService {
 
     @Resource

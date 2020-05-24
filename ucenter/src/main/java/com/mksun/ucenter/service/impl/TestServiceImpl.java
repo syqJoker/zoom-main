@@ -1,8 +1,8 @@
-package com.mksun.travel.service.impl;
+package com.mksun.ucenter.service.impl;
 
-import com.mksun.travel.dao.TestDao;
+import com.mksun.ucenter.dao.TestDao;
 import com.mksun.commons.entity.Test;
-import com.mksun.travel.service.TestService;
+import com.mksun.ucenter.service.TestService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

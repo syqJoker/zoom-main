@@ -6,6 +6,7 @@
 		<module>config</module>
 		<module>workout</module>
 		<module>ucenter</module>
+		<module>ucenter-backup</module>
 		<module>gateway</module>
 		<module>commons</module>
 		<module>travel</module>

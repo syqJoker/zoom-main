@@ -1,15 +1,15 @@
-package com.mksun.travel.service.impl;
+package com.mksun.ucenterB.service.impl;
 
-import com.mksun.travel.dao.TestDao;
-import com.mksun.travel.service.TestService;
+import com.mksun.ucenterB.dao.TestDao;
 import com.mksun.commons.entity.Test;
+import com.mksun.ucenterB.service.UCenterBTestService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
 
 @Service("TestService")
-public class TestServiceImpl implements TestService {
+public class UCenterBTestServiceImpl implements UCenterBTestService {
     @Resource
     private TestDao testDao;
 

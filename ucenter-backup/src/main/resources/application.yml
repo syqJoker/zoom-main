@@ -1,0 +1,12 @@
+
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ucenter
+
+info:
+  app:
+    name: ucenter-backup-service
+    version: v1.0.0
