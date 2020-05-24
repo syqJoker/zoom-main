@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      name: config
+      profile: dev
+      uri: http://127.0.0.1:8084/
+
+rocketmq:
+  namesrvAddr: 192.168.101.15:9876 # NameServer地址

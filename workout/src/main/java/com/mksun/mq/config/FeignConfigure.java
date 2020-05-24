@@ -1,4 +1,4 @@
-package com.mksun.workout.config;
+package com.mksun.mq.config;
 
 import feign.Request;
 import feign.Retryer;

@@ -10,6 +10,7 @@
 		<module>gateway</module>
 		<module>commons</module>
 		<module>travel</module>
+		<module>mq</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -1,8 +1,8 @@
-package com.mksun.workout.controller;
+package com.mksun.mq.controller;
 
 import com.mksun.commons.entity.RtnJSON;
 import com.mksun.commons.utils.RedisUtils;
-import com.mksun.workout.feign.UCenterTestService;
+import com.mksun.mq.feign.UCenterTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;

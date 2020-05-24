@@ -1,8 +1,7 @@
-package com.mksun.workout.feign;
+package com.mksun.mq.feign;
 
-import com.mksun.workout.config.FeignConfigure;
-import com.mksun.workout.config.RibbonConfigBeans;
-import com.mksun.workout.feign.common.FeignServiceFallbackFactory;
+import com.mksun.mq.config.RibbonConfigBeans;
+import com.mksun.mq.feign.common.FeignServiceFallbackFactory;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

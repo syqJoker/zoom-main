@@ -1,0 +1,16 @@
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: mq
+
+info:
+  app:
+    name: mq-service
+    version: v1.0.0
+
+feign:
+  hystrix:
+    enabled: true

@@ -1,9 +1,6 @@
-package com.mksun.workout.controller;
+package com.mksun.mq.controller;
 
-import com.mksun.workout.feign.UCenterTestService;
-import com.mksun.workout.feign.common.FeignServiceFallbackFactory;
-import com.netflix.ribbon.proxy.annotation.Hystrix;
-import org.springframework.stereotype.Controller;
+import com.mksun.mq.feign.UCenterTestService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

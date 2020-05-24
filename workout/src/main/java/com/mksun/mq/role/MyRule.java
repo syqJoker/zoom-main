@@ -1,9 +1,6 @@
-package com.mksun.workout.role;
+package com.mksun.mq.role;
 
-import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.*;
-import lombok.SneakyThrows;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 

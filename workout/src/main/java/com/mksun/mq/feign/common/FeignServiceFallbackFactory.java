@@ -1,6 +1,6 @@
-package com.mksun.workout.feign.common;
+package com.mksun.mq.feign.common;
 
-import com.mksun.workout.feign.UCenterTestService;
+import com.mksun.mq.feign.UCenterTestService;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 

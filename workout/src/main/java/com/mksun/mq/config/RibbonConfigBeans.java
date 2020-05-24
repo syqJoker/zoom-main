@@ -1,7 +1,6 @@
-package com.mksun.workout.config;
+package com.mksun.mq.config;
 
-import com.mksun.workout.role.MyRule;
-import com.netflix.loadbalancer.BestAvailableRule;
+import com.mksun.mq.role.MyRule;
 import com.netflix.loadbalancer.IRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
